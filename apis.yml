@@ -1,9 +1,27 @@
 aid: synaptic
 name: Synaptic
-description: Synaptic is a company surfaced as a portfolio company of bloomberg-beta, ribbit-capital and
-  added to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+description: Synaptic is a vertical AI solutions company that extends Salesforce and
+  Agentforce environments with pre-built, industry-specific AI agents and applications.
+  Its AQ Platform ships purpose-built agents for healthcare payers and providers (Provider
+  AQ), government citizen services (Citizen AQ), and high-tech customer service (Service
+  AQ), using a value-first methodology that promises measurable results within 30 days
+  and full implementation within 90 days. Synaptic is a managed-delivery solutions and
+  consulting firm rather than a self-service developer platform; as of this enrichment
+  pass it publishes no public API, developer portal, OpenAPI, or technical documentation.
+  Backed by Bloomberg Beta and Ribbit Capital.
 url: https://raw.githubusercontent.com/api-evangelist/synaptic/refs/heads/main/apis.yml
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://synaptic.build/static/images/synaptic-og-image.png
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
@@ -13,9 +31,17 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Artificial Intelligence
+- AI Agents
+- Salesforce
+- Agentforce
+- Healthcare
+- Government
+- Enterprise Software
+- Consulting
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,5 +49,18 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/synaptic-domain-security.yml
 - type: Website
   url: https://www.synaptic.build/
+- type: Blog
+  url: https://synaptic.build/insights/index.html
+- type: Support
+  url: https://synaptic.build/about/contact.html
+- type: PrivacyPolicy
+  url: https://synaptic.build/privacy-policy.html
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
