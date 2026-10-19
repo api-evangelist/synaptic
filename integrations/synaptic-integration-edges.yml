@@ -1,0 +1,60 @@
+edges:
+- partner_name: Salesforce Consulting Partner Program
+  partner: salesforce
+  partner_match: register
+  type: register
+  channel: standard-directory
+  relationship: standard-participant
+  direction: partner-built
+  evidence: https://appexchange.salesforce.com/appxListingDetail?listingId=a0N300000057ipvEAA
+  category: Services partner
+  contract_reference:
+    register: Salesforce AppExchange consultants (recommendations/v3 listings type=consultants)
+    spec_file: null
+    standard: Salesforce consulting partner (AppExchange)
+    role: salesforce-consulting-partner
+    registered_name: Synaptic
+    register_id: a0N300000057ipvEAA
+    partner_tier: Select
+    matched_domain: synaptic.build
+    matched_by: domain
+    identity_source: the register's own website / profile URL for the firm (no lookup)
+    signal_note: listing = participation; certified_products = one entry per designation the program awards the
+      FIRM (lapsed flagged); partner_tier and context are never counted (breadth is not credit)
+    detected_by: sweep-professional-services.py
+    detected: '2026-10-19'
+    certified_products:
+    - product: Agentforce (Cloud Accredited)
+      type: Salesforce product expertise
+      lapsed: false
+    - product: Agentforce Marketing (Cloud Accredited)
+      type: Salesforce product expertise
+      lapsed: false
+    - product: Agentforce Sales (Cloud Accredited)
+      type: Salesforce product expertise
+      lapsed: false
+    - product: Agentforce Service (Cloud Accredited)
+      type: Salesforce product expertise
+      lapsed: false
+    - product: Platform (Cloud Accredited)
+      type: Salesforce product expertise
+      lapsed: false
+    - product: Small Business (Cloud Accredited)
+      type: Salesforce product expertise
+      lapsed: false
+  detected_by: sweep-professional-services.py
+  first_seen: '2026-10-19'
+generated: '2026-10-19'
+method: searched
+source:
+- https://api.appexchange.salesforce.com/recommendations/v3/listings?type=consultants&pageSize=50&page=0
+- https://api.finder.partners.aws.a2z.com/search?locale=en&size=20&from=0
+- https://app.hubspot.com/api/chirp-frontend-external/v1/gateway/com.hubspot.marketplace.personalization.rpc.PersonalizationPublicRpc/search?hs_static_app=marketplace-storefront-public-ui&hs_static_app_version=1.13519
+- https://www.databricks.com/en-partners-assets/data/partner/all/en.json
+- https://www.snowflake.com/content/snowflake-site/global/en/why-snowflake/partners/all-partners/_jcr_content/root/responsivegrid/container/container/filterable_resources.filter.json?offset=0
+checked:
+- https://api.appexchange.salesforce.com/recommendations/v3/listings?type=consultants&pageSize=50&page=0
+- https://api.finder.partners.aws.a2z.com/search?locale=en&size=20&from=0
+- https://app.hubspot.com/api/chirp-frontend-external/v1/gateway/com.hubspot.marketplace.personalization.rpc.PersonalizationPublicRpc/search?hs_static_app=marketplace-storefront-public-ui&hs_static_app_version=1.13519
+- https://www.databricks.com/en-partners-assets/data/partner/all/en.json
+- https://www.snowflake.com/content/snowflake-site/global/en/why-snowflake/partners/all-partners/_jcr_content/root/responsivegrid/container/container/filterable_resources.filter.json?offset=0
